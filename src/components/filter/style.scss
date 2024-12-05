@@ -1,0 +1,35 @@
+.filter {
+    width: 1310px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    align-self: self-start;
+    display: flex;
+    justify-content: space-between;
+
+    &__block {
+        padding: 10px 20px;
+        border-radius: 15px;
+        background-color: black;
+        display: flex;
+        gap: 50px;
+    }
+
+    &__select {
+        width: 200px;
+        height: 30px;
+        font-size: 20px;
+    }
+
+    &__search {
+        padding: 0 10px;
+        border-radius: 8px;
+        width: 485px;
+        height: 30px;
+        font-size: 20px;
+    }
+
+    &__button {
+        height: 50px;
+        line-height: 40px;
+    }
+}

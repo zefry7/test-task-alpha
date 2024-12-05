@@ -1,0 +1,28 @@
+@import url(./_null-style.scss);
+
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button-style {
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 10px;
+  height: 40px;
+  font-size: 24px;
+  text-align: center;
+  border: 1px solid transparent;
+  color: white;
+  background-color: black;
+  transition: all 0.15s linear;
+
+  &:hover {
+    border-color: black;
+    background-color: white;
+    color: black;
+  }
+
+  &:active {
+    transform: translateY(3px);
+  }
+}

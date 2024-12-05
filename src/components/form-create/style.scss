@@ -1,0 +1,46 @@
+.form-create {
+    width: 100%;
+
+    &__title {
+        margin-bottom: 20px;
+        font-size: 48px;
+        font-weight: 700;
+    }
+
+    
+    &__block {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 400px;
+    }
+
+    &__label {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 20px;
+        font-weight: 700;
+
+        input {
+            padding: 5px 10px;
+            border: 1px solid black;
+            border-radius: 8px;
+            height: 30px;
+            font-size: 20px;
+        }
+
+        textarea {
+            padding: 5px 10px;
+            border: 1px solid black;
+            border-radius: 8px;
+            height: 300px;
+            font-size: 20px;
+        }
+    }
+
+    &__error {
+        font-size: 20px;
+        color: red;
+    }
+}

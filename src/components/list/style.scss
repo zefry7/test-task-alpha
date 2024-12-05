@@ -1,0 +1,12 @@
+.list {
+    margin: 0 auto;
+    width: 1310px;
+    height: 640px;
+    align-self: flex-start;
+    &__content {
+        max-width: 1310px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+}
